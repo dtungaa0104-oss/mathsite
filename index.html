@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+{% block title %}МатемПортал — Математикийн Нэгдсэн Портал{% endblock %}
+{% block content %}
+
+<!-- Hero -->
+<section class="home-hero">
+  <div class="home-hero-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="home-hero-inner">
+    <div class="home-hero-badge">
+      🇲🇳 &nbsp; Монгол Сурагчдад Зориулсан
+    </div>
+    <h1 class="home-hero-title">
+      <span class="highlight">Математик</span><br>
+      таны <span class="highlight-gold">гарт</span>
+    </h1>
+    <p class="home-hero-sub">
+      Тооцоолол, график, тоглоомжуулсан үнэлгээ болон бие даан суралцах бүх хэрэгслийг нэг дор.
+    </p>
+    <div class="home-cta-row">
+      <a href="/tools" class="btn-primary">⚙ Хэрэгслүүд харах</a>
+      <a href="/learning" class="btn-outline">📚 Суралцах эхлэх</a>
+    </div>
+  </div>
+</section>
+
+<!-- Symbol strip -->
+<div class="symbol-strip">
+  <div class="symbol-track">
+    <span>∑</span><span>∫</span><span>∂</span><span>√</span><span>π</span><span>∞</span>
+    <span>≈</span><span>≠</span><span>≤</span><span>≥</span><span>∈</span><span>⊂</span>
+    <span>∧</span><span>∨</span><span>∀</span><span>∃</span><span>∇</span><span>Δ</span>
+    <span>α</span><span>β</span><span>γ</span><span>θ</span><span>λ</span><span>μ</span>
+    <!-- Repeat for seamless loop -->
+    <span>∑</span><span>∫</span><span>∂</span><span>√</span><span>π</span><span>∞</span>
+    <span>≈</span><span>≠</span><span>≤</span><span>≥</span><span>∈</span><span>⊂</span>
+    <span>∧</span><span>∨</span><span>∀</span><span>∃</span><span>∇</span><span>Δ</span>
+    <span>α</span><span>β</span><span>γ</span><span>θ</span><span>λ</span><span>μ</span>
+  </div>
+</div>
+
+<!-- Stats -->
+<div class="stats-bar">
+  <div class="stat-item fade-in">
+    <div class="stat-num">5+</div>
+    <div class="stat-label">Тооцооллын хэрэгсэл</div>
+  </div>
+  <div class="stat-item fade-in">
+    <div class="stat-num">4+</div>
+    <div class="stat-label">Тоглоомжуулах платформ</div>
+  </div>
+  <div class="stat-item fade-in">
+    <div class="stat-num">3+</div>
+    <div class="stat-label">Суралцах эх сурвалж</div>
+  </div>
+  <div class="stat-item fade-in">
+    <div class="stat-num">2+</div>
+    <div class="stat-label">Монгол контент</div>
+  </div>
+</div>
+
+<!-- Feature cards -->
+<div class="home-features">
+  <div class="section-label">Бүх хэсгүүд</div>
+  <div class="section-title" style="margin-bottom:2rem;">Юу хайж байна вэ?</div>
+  <div class="feature-grid">
+    <div class="feature-card fade-in">
+      <a href="/tools">
+        <div class="feature-icon">⚙️</div>
+        <div class="feature-name">Хэрэгслүүд</div>
+        <div class="feature-hint">GeoGebra, Desmos, WolframAlpha гэх мэт</div>
+      </a>
+    </div>
+    <div class="feature-card fade-in">
+      <a href="/engagement">
+        <div class="feature-icon">🎮</div>
+        <div class="feature-name">Тоглоомжуулах</div>
+        <div class="feature-hint">Quizizz, Blooket, Kahoot!</div>
+      </a>
+    </div>
+    <div class="feature-card fade-in">
+      <a href="/learning">
+        <div class="feature-icon">📚</div>
+        <div class="feature-name">Суралцах</div>
+        <div class="feature-hint">Khan Academy, Brilliant, PhET</div>
+      </a>
+    </div>
+    <div class="feature-card fade-in">
+      <a href="/apps">
+        <div class="feature-icon">📱</div>
+        <div class="feature-name">Аппликейшн</div>
+        <div class="feature-hint">Photomath, Mathway</div>
+      </a>
+    </div>
+    <div class="feature-card fade-in">
+      <a href="/local">
+        <div class="feature-icon">🇲🇳</div>
+        <div class="feature-name">Монгол контент</div>
+        <div class="feature-hint">Esant.mn, iMath.mn</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
